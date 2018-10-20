@@ -1,0 +1,22 @@
+Assignment 11
+
+Read the below given scenario and add functionality in service class to write employee objects into a File as a function named writeEmployeeToFile() that should store the employee details only of a employee object that is passed as an argument to the function in a file named EmployeeDetails.txt  on the location /code/workspace.
+
+Make sure the txt file contains details of only one employee else your solution will be rejected.
+
+Scenario:
+Case Study: Employee Medical Insurance Scheme:
+By default, all employees in an organization will be assigned with a medical insurance scheme based on the salary range and designation of the employee. Refer the following table to find the eligible insurance scheme specific to an employee.
+
+Salary             | Designation      | Insurance scheme
+>5000 and < 20000  | System Associate | scheme c
+>=20000 and <40000 | Programmer       | scheme b
+>=40000            | Manager          | scheme a
+<5000              | Clerk            | no scheme
+
+On the basis of above case study implement a class to accept multiple employee details and store all employee objects in a HashMap. The functionalities need to be implemented are as follows:
+
+Add employee details to HashMap.
+Accept insurance scheme from user and display employee details based on Insurance scheme.
+Delete an employee details from map.
+Note: Refer the code stub for more clarity.
